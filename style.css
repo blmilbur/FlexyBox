@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: beige;
+}
+.Navigation
+{
+    width: 100%;
+    height: 50px;
+    color: gold;
+    display: flex;
+    background-color: mediumseagreen;
+    text-align: right;
+    font-size: medium;
+    align-items: center;
+    justify-content: right;
+    background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/abstract-wallpaper-200719153510352048x1152.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.47);
+    padding: 0;
+    -webkit-text-stroke: thin black;
+
+}
+a
+{
+    margin: 10px;
+}
+
+.Splash
+{
+    width: 100%;
+    min-height: 300px;
+    background-image: url("https://images.hdqwalls.com/download/minimalist-mountains-green-4k-a3-2560x1080.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    text-effect: engrave;
+    outline: solid black 2px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.47);
+    -webkit-text-stroke: thin black;
+
+}
+
+
+.Wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 25px;
+}
+
+.Product
+    /* Div does not have a fixed height. */
+{
+    min-width: 250px;
+    min-height: 150px;
+    background-color: mediumseagreen;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.47);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 50px;
+    color: gold;
+    background-image: url("https://images.unsplash.com/photo-1491146179969-d674118945ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-size: cover;
+    background-position: 50% 50%;
+    -webkit-text-stroke: thin black;
+}
+
+.BigBoy
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 300px;
+    color: gold;
+    background-color: darkgreen;
+    padding: 0;
+    background-image: url("https://www.maxpixel.net/static/photo/1x/Green-Foliage-Background-Plant-Leaf-Minimalist-5945857.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.47);
+    outline: solid black 2px;
+    -webkit-text-stroke: thin black;
+}
+
+.Bottom_Wrapper
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.Bottom_Stuff
+{
+    display: flex;
+    color: gold;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    min-width: 300px;
+    min-height: 200px;
+    background-image: url("https://images.unsplash.com/photo-1491146179969-d674118945ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.47);
+    -webkit-text-stroke: thin black;
+}
+
+.Legalities
+{
+    display: flex;
+    min-height: 25px;
+    justify-content: space-around;
+    background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/abstract-wallpaper-200719153510352048x1152.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    outline: solid black 2px;
+
+}
+
+p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    -webkit-text-stroke: thin black;
+
+
+}
+h1
+{
+    margin: 4px;
+}
+
