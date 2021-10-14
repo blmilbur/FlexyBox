@@ -135,7 +135,7 @@ a
     background-size: cover;
     background-position: 50% 50%;
     outline: solid black 2px;
-
+    bottom: 100%;
 }
 
 p
