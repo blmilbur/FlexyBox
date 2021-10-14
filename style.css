@@ -7,17 +7,25 @@ body
 {
     background-color: beige;
 }
-.Navigation
+.nav
 {
     width: 100%;
     height: 50px;
-    color: gold;
+    position: fixed;
+    top: 0%;
+}
+.Nav-Wrapper {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0%;
     display: flex;
+    justify-content: space-evenly;
+    color: gold;
     background-color: mediumseagreen;
     text-align: right;
     font-size: medium;
     align-items: center;
-    justify-content: right;
     background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/abstract-wallpaper-200719153510352048x1152.jpg");
     background-size: cover;
     background-position: 50% 50%;
@@ -26,6 +34,19 @@ body
     -webkit-text-stroke: thin black;
 
 }
+.logo
+{
+    margin-right: auto;
+    width: 49px;
+    height: 49px;
+    background-image: url("https://png.pngtree.com/element_our/20190531/ourlarge/pngtree-vector-green-cartoon-tree-image_1320612.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    outline: solid black 2px;
+
+
+}
+
 a
 {
     margin: 10px;
@@ -36,8 +57,9 @@ a
     width: 100%;
     min-height: 300px;
     background-image: url("https://images.hdqwalls.com/download/minimalist-mountains-green-4k-a3-2560x1080.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
     font-size: xxx-large;
     display: flex;
     justify-content: center;
@@ -76,10 +98,12 @@ a
     margin-bottom: 50px;
     color: gold;
     background-image: url("https://images.unsplash.com/photo-1491146179969-d674118945ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
     -webkit-text-stroke: thin black;
 }
+
 
 .BigBoy
 {
@@ -135,7 +159,9 @@ a
     background-size: cover;
     background-position: 50% 50%;
     outline: solid black 2px;
-    bottom: 100%;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
 }
 
 p
