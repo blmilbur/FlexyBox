@@ -22,9 +22,9 @@ body
     display: flex;
     justify-content: space-evenly;
     color: gold;
+    font-size: large;
     background-color: mediumseagreen;
     text-align: right;
-    font-size: medium;
     align-items: center;
     background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/abstract-wallpaper-200719153510352048x1152.jpg");
     background-size: cover;
@@ -39,7 +39,7 @@ body
     margin-right: auto;
     width: 49px;
     height: 49px;
-    background-image: url("https://png.pngtree.com/element_our/20190531/ourlarge/pngtree-vector-green-cartoon-tree-image_1320612.jpg");
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/0/91/minimalizm-listok-zelionyi-fon.jpg");
     background-size: cover;
     background-position: 50% 50%;
     outline: solid black 2px;
