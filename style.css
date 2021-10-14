@@ -80,7 +80,8 @@ a
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-end;
-    margin: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .Product
@@ -96,7 +97,7 @@ a
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     color: gold;
     background-image: url("https://images.unsplash.com/photo-1491146179969-d674118945ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
     background-position: center;
@@ -120,11 +121,11 @@ a
     background-image: url("https://www.maxpixel.net/static/photo/1x/Green-Foliage-Background-Plant-Leaf-Minimalist-5945857.jpg");
     background-size: cover;
     background-position: 50% 50%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.47);
     outline: solid black 2px;
-    font-size: xx-large;
     -webkit-text-stroke: thin black;
+    font-size: xx-large;
 }
 
 .Bottom_Wrapper
@@ -141,7 +142,7 @@ a
     justify-content: center;
     align-items: flex-end;
     text-align: center;
-    min-width: 300px;
+    min-width: 350px;
     min-height: 200px;
     background-image: url("https://images.unsplash.com/photo-1491146179969-d674118945ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
     background-size: cover;
