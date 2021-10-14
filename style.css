@@ -123,6 +123,7 @@ a
     margin-bottom: 30px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.47);
     outline: solid black 2px;
+    font-size: xx-large;
     -webkit-text-stroke: thin black;
 }
 
